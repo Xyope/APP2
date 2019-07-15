@@ -1,0 +1,54 @@
+<ion-header class="menu">
+  <ion-toolbar color="warning">
+    <ion-title>Menu</ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+      <!--  -->
+        <ion-card-header>
+          <ion-card-subtitle>Opcion 1:</ion-card-subtitle>
+          <ion-card-title>Graficos</ion-card-title>
+        </ion-card-header>
+        <ion-img src="/assets/grafico.png" class="grafico"></ion-img>
+        <ion-card-content>
+            <ion-button expand="block" routerLink="/mesas" color="primary">Ver mas</ion-button>
+        </ion-card-content>
+      </ion-card> 
+      <!--  -->
+      <ion-card>
+          <ion-card-header>
+            <ion-card-subtitle>Opcion 2:</ion-card-subtitle>
+            <ion-card-title>Reportes</ion-card-title>
+          </ion-card-header>
+          <ion-img src="/assets/reporte.png" class="grafico"></ion-img>
+          <ion-card-content>
+              <ion-button expand="block" routerLink="/reporte" color="primary">Ver mas</ion-button>
+          </ion-card-content>
+        </ion-card> 
+        <!--  -->
+        <ion-card>
+            <ion-card-header>
+              <ion-card-subtitle>Opcion 3:</ion-card-subtitle>
+              <ion-card-title>Perfil</ion-card-title>
+            </ion-card-header>
+            <ion-img src="/assets/perfil.png" class="grafico"></ion-img>
+            <ion-card-content>
+                <ion-button expand="block" routerLink="/ayuda" color="primary">Ver mas</ion-button>
+            </ion-card-content>
+          </ion-card> 
+          <!--  -->
+          <ion-card>
+              <ion-card-header>
+                <ion-card-subtitle>Opcion 4:</ion-card-subtitle>
+                <ion-card-title>Ayuda</ion-card-title>
+              </ion-card-header>
+              <ion-img src="/assets/ayuda.png" class="grafico"></ion-img>
+              <ion-card-content>
+                  <ion-button expand="block" routerLink="/perfil" color="primary">Ver mas</ion-button>
+              </ion-card-content>
+            </ion-card> 
+            <ion-icon name="arrow-dropright-circle" routerLink="/home" routerLinkActive="router-link-active" ></ion-icon>
+</ion-content>
