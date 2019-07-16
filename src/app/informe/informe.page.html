@@ -1,0 +1,41 @@
+<ion-header class="menu">
+    <ion-toolbar color="warning">
+        <ion-img src="/assets/35.jpg" class="imagenheader">
+      <ion-title>Menu</ion-title>
+      
+    </ion-img>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+    <ion-content>
+        <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+          <ion-fab-button>
+            <ion-icon name="arrow-dropleft" routerLink="/menu"></ion-icon>
+          </ion-fab-button>
+        </ion-fab>
+      </ion-content>
+</ion-content>
+<ion-footer>
+    <ion-toolbar>
+      <ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="schedule" routerLink="/informe" routerLinkActive="router-link-active" >
+      <ion-icon name="calendar"></ion-icon>
+      <ion-label>Informes</ion-label>
+      <ion-badge>6</ion-badge>
+    </ion-tab-button>
+
+    <ion-tab-button tab="speakers" routerLink="/perfil" routerLinkActive="router-link-active"> 
+      <ion-icon name="contacts"></ion-icon>
+      <ion-label>Perfil</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="configuración" routerLink="/mas" routerLinkActive="router-link-active">
+      <ion-icon name="cog"></ion-icon>
+      <ion-label>Mas</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
+    </ion-toolbar>
+  </ion-footer>

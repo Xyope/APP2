@@ -49,32 +49,28 @@
     </ion-card-header>
     <ion-img src="/assets/ayuda.png" class="grafico"></ion-img>
     <ion-card-content>
-      <ion-button expand="block" routerLink="/perfil" color="primary">Ver mas</ion-button>
+      <ion-button expand="block" routerLink="/ayuda" color="primary">Ver mas</ion-button>
     </ion-card-content>
   </ion-card>
   <!-- aqui van los tabs -->
 </ion-content>
 <!--  -->
-
-
-
-
 <ion-footer>
     <ion-toolbar>
       <ion-tabs>
   <ion-tab-bar slot="bottom">
-    <ion-tab-button tab="schedule">
+    <ion-tab-button tab="schedule" routerLink="/informe" routerLinkActive="router-link-active" >
       <ion-icon name="calendar"></ion-icon>
       <ion-label>Informes</ion-label>
       <ion-badge>6</ion-badge>
     </ion-tab-button>
 
-    <ion-tab-button tab="speakers">
+    <ion-tab-button tab="speakers" routerLink="/perfil" routerLinkActive="router-link-active"> 
       <ion-icon name="contacts"></ion-icon>
       <ion-label>Perfil</ion-label>
     </ion-tab-button>
 
-    <ion-tab-button tab="configuración">
+    <ion-tab-button tab="configuración" routerLink="/mas" routerLinkActive="router-link-active">
       <ion-icon name="cog"></ion-icon>
       <ion-label>Mas</ion-label>
     </ion-tab-button>

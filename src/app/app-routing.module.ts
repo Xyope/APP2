@@ -9,6 +9,9 @@ const routes: Routes = [
   { path: 'perfil', loadChildren: './perfil/perfil.module#PerfilPageModule' },
   { path: 'reporte', loadChildren: './reporte/reporte.module#ReportePageModule' },
   { path: 'ayuda', loadChildren: './ayuda/ayuda.module#AyudaPageModule' },
+  { path: 'grafico', loadChildren: './grafico/grafico.module#GraficoPageModule' },
+  { path: 'mas', loadChildren: './mas/mas.module#MasPageModule' },
+  { path: 'informe', loadChildren: './informe/informe.module#InformePageModule' },
 ];
 
 @NgModule({
