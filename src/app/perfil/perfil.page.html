@@ -1,11 +1,15 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Perfil</ion-title>
+<ion-header class="menu">
+  <ion-toolbar color="warning">
+    <ion-img src="/assets/35.jpg" class="imagenheader">
+      <ion-title>Menu</ion-title>
+    </ion-img>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-    <ion-buttons slot="start">
-      <ion-back-button defaultHref="menu"></ion-back-button>
-    </ion-buttons>
+  <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="arrow-dropleft" routerLink="/menu"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>

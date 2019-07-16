@@ -6,3 +6,14 @@
   height: 80px;
   position: relative;
 }
+.imagenheader{
+  width: 90px;
+  height: 60px;
+  display: block;
+  margin: auto;
+}
+app-page-home {
+  ion-content ion-scroll {
+      background-image: url('/assets/pizza.jpg');
+  }
+}

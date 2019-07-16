@@ -1,9 +1,15 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Mesas</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-header class="menu">
+    <ion-toolbar color="warning">
+        <ion-img src="/assets/35.jpg" class="imagenheader">
+      <ion-title>Menu</ion-title>
+    </ion-img>
+    </ion-toolbar>
+  </ion-header>
 
 <ion-content>
-    <ion-button expand="block" routerLink="/menu" color="primary">Ver mas</ion-button>
+    <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+        <ion-fab-button>
+          <ion-icon name="arrow-dropleft" routerLink="/menu"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
 </ion-content>
